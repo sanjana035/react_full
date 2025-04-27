@@ -3,8 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-
+function App() {   
+  
   let [counter, setCounter] = useState(15)
   ////setCounter is basically a method/function jo counter variable ko controll karega
 ////ye hook state ko change krne ke liye {change ko propAGATE KIYA JATA HAI dom me}
