@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <h1>chai our code</h1>
+      <h1>chai ou r code</h1>
       <h2>Counter Value: {counter}</h2>
       <button onClick={addvalue}>Add Value</button>
       <br />
