@@ -6,12 +6,15 @@ import Card from './components/card'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  let myObj = {
+    userName: "sanjana",
+    age: 25
+  }
   return (
     <>
       <div>Hello World</div>
-      <Card />
-      <Card />
+      <Card channel="chai or code" btnTxt = "click me"/>
+      <Card channel="chai or react" btnTxt = "visit me"/*someObj = {myObj}*//>
     </>
   )
 }
